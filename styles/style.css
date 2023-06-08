@@ -33,7 +33,23 @@
 }
 
 .li__a--nav {
+    cursor: pointer;
+    border-bottom: 0.1rem solid transparent;
+    transition: 0.1s;
+}
 
+.li__a--nav:hover {
+    border-bottom: 0.1rem solid black ;
+}
+
+.li__a--nav--img {
+    cursor: pointer;
+    width: 2rem;
+}
+
+.li__a--nav--img:hover {
+    border-radius: 50%;
+    background-color: rgb(175, 175, 175);
 }
 
 .a__span--nav {
@@ -41,7 +57,6 @@
 }
 
 .a__img--nav {
-    width: 5rem;
     border-radius: 50%;
 }
 
@@ -80,7 +95,7 @@
 
     margin-top: 2rem;
 
-    background-color: aliceblue;
+    /* background-color: violet; */
 }
 
 
@@ -89,27 +104,32 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
-.div__span--search--main {
-    background-image: url('https://img.icons8.com/android/24/000000/search.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+.div__picture--search--main {
     width: 1.5rem;
-    height: 1.5rem;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-right: 0.8rem;
+    margin-left: 1rem;
 }
+
+.picture__img--search--main--lupe {}
 
 .div__div--search--main {
-    width: 47rem;
+    width: 46.5rem;
     height: 3rem;
+
     border-radius: 15rem;
     border: 0.1rem solid #dfe1e5;
 
     display: flex;
     justify-content: center;
-
-    background-color: aqua;
+    align-items: center;
 }
 
 .div__div--search--main:hover {
@@ -120,26 +140,69 @@
 .div__input--search--main {
     width: 43rem;
     height: inherit;
-    background-color: ;
 
     border-radius: inherit;
     outline: none;
-    
-    background-color: violet;
 }
 
-.div__a--search--mian {}
+.div__a--search--main {
+    margin-right: 1.2rem;
+}
+
+.a__picture--search--main {
+    width: 2rem;
+}
+
+.picture__img--search--main--camera {}
 
 
 
-.form__div--inputs--main {}
+.form__div--inputs--main {
+    margin-top: 2rem;
 
-.div__input--inputs--main {}
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.div__input--inputs--main {
+    width: 12.3rem;
+    height: 3rem;
+
+    background-color: #dfe1e5 ;
+    border: 0.1rem solid #dfe1e5;
+    border-radius: 0.3rem;
+    
+    margin-left: 1rem;
+
+    font-size: larger;
+}
+
+.div__input--inputs--main:hover {
+    box-shadow: 0rem 0.1rem 0.1rem 0 #20212447;
+    border-color: #dfe1e500;
+    cursor: pointer;
+}
 
 
+.section__div--links--main {
+    margin-top: 3rem;
+}
 
-.section__div--links--main {}
+.div__span--links--main {
+    display: flex;
+    flex-direction: row;
 
-.div__span--links--main {}
+    font-size: 1.4rem;
+}
 
-.span__a--links--main {}
+.span__a--links--main {
+    font-size: 1.4rem;
+    color: rgb(0, 0, 161);
+    margin-left: 1rem;
+}
+
+.span__a--links--main:hover {
+    border-bottom: 0.1rem solid rgb(0, 0, 161) ;
+}
