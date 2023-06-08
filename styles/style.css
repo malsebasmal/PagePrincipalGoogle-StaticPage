@@ -1,7 +1,7 @@
 /* Header */
 
 .header {
-    width: 100%;
+    width: 100vw;
     height: 5rem;
     
     display: flex;
@@ -65,7 +65,7 @@
 /* Main */
 .main {
     width: 100vw;
-    height: 100vh;
+    height: 84.5vh;
 
     display: flex;
     flex-direction: column;
@@ -94,8 +94,6 @@
     align-items: center;
 
     margin-top: 2rem;
-
-    /* background-color: violet; */
 }
 
 
@@ -205,4 +203,108 @@
 
 .span__a--links--main:hover {
     border-bottom: 0.1rem solid rgb(0, 0, 161) ;
+}
+
+
+
+/* Footer */
+.footer__div {
+    width: 100vw;
+    height: auto;
+}
+
+.div__ul--footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.ul__li--up--footer {
+    width: inherit;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+
+    border-bottom: 0.1rem solid #e0e1e4 ;
+    background-color: #f2f2f2;
+}
+
+.li__span--up--footer {
+    margin-left: 3rem;
+    font-size: larger;
+    color: #70757a;
+}
+
+
+.ul__li--down--footer--principal {
+    width: inherit;
+    height: 4rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #f2f2f2;
+}
+
+.li__ul--down--footer { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.ul__li--down--izq--principal--footer {
+    width: inherit;
+    height: inherit;
+    margin-left: 1rem;
+
+}
+
+.li__ul--down--izq--footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul__li--down--izq--footer {
+    margin-left: 2rem;
+}
+
+.li__a--down--izq--footer {
+    font-size: larger;
+    color: #70757a;
+}
+
+.li__a--down--izq--footer:hover {
+    border-bottom: 0.1rem solid #70757a ;
+}
+
+
+
+.ul__li--down--der--principal--footer {
+    width: inherit;
+    height: inherit;
+    margin-left: 30rem;
+}
+
+.li__ul--down--der--footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ul__li--down--der--footer {
+    margin-left: 2rem;
+}
+
+.li__a--down--der--footer {
+    color: #70757a;
+    font-size: larger;
+}
+
+
+.li__a--down--der--footer:hover {
+    border-bottom: 0.1rem solid #70757a ;
 }
